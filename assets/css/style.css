@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* Die verwendete Schriftart: Lato
+Die background-color ist #D9E8E5, der graue Text ist rgba(0,0,0,.8)
+Nutze margin: auto um die letzten beiden Menüpunkte an den rechten Rand zu positionieren
+Nutze flex-wrap: wrap für die Bildergalerie. */
+
+/* font-family: 'Lato', sans-serif; */
+
+/* header nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+header nav ul {
+    display: flex;
+    list-style-type: none;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #D9E8E5;
+    font-family: "Lato";
+}
+a{
+    text-decoration: none;
+}
+
+#logo{
+    display: flex;
+    align-items: baseline;
+    margin-right: 2em;
+}
+
+#logo h1{
+    padding-left: .5em;
+}
+
+nav{
+    background: #fff;
+    display: flex;
+    align-items: baseline;
+    padding: 1em 4em;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 80%;
+}
+
+nav li{
+    margin-left: 1em;
+    flex-shrink: 0;
+}
+
+.rightSide{
+    margin-left: auto;
+}
+
+#rings{
+    margin: 5em 10em;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h2 {
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+.galleryItem{
+    position: relative;
+    margin: 0.5em;
+}
+
+.galleryItem p{
+    position: absolute;
+    bottom: 1em;
+    right: 2em;
+}
+
+ a{
+    color: rgba(0, 0, 0, .8);
+ }
